@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="audio wepsite" content="media">
+    <title>media library</title>
+</head>
+<body>
+  <div>
+      <h1>this is my media store</h1>
+      <p>welcome</p>
+  </div>  
+  <audio controls autoplay loop muted>
+      <source src="islamic.mp3" type="audio/mpeg"> 
+      <source src="islamic.ogg" type="audio/ogg">
+      <source src="islamic.wav" type="audio/wav"> 
+      Your Browser Does Not Support Audio Tags
+  </audio>
+  <br>
+  <video controls  width="600" height="400"  loop muted>
+      <source src="boss.mp4" type="video/mp4"> 
+      <source src="boss.ogg" type="video/ogg"> 
+      <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English">
+      <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="Italian">
+  </video>
+  <br>
+  <br>
+  <hr>
+<form action="" method="get">
+       <div>
+    <label >username</label>
+    <input type="text " required placeholder="username" name="username">
+</div>
+<br><br>
+<div><label>password</label>
+    <input type="password" required placeholder="write strong password" name="pass">
+</div>
+<br><br>
+<div>
+    <label>email</label>
+    <input type="emial" required placeholder="write avalid email" value="o@nn.sa" name="mail">
+    <div><label >color</label>
+        <input type="color" name="colpr">
+    </div>
+</div>
+<div><label range></label>
+    <input type="range" name="range"min="10" max="100" step="20" value="80">
+</div>
+    <div>
+        <label>number</label>
+        <input type="number" name="number" min="10" max="100" step="10">
+    </div>
+<input type="submit" value="save">
+<input type="reset" value="reset"
+</form>
+ 
+</body>
+</html>
